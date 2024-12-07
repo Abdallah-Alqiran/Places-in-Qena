@@ -21,6 +21,13 @@ This Android application was developed as part of the DEPI initiative. It featur
 - **Tools:** Android Studio, XML.
 
 ---
+#### Places List Screen  
+![screen1](app/src/main/res/drawable/screen1.png)
+![screen2](app/src/main/res/drawable/screen2.png)
+![screen3](app/src/main/res/drawable/screen3.png)
+![screen4](app/src/main/res/drawable/screen4.png)
+![screen5](app/src/main/res/drawable/screen5.png)
+
 
 ## Contact Me
 
