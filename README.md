@@ -22,11 +22,11 @@ This Android application was developed as part of the DEPI initiative. It featur
 
 ---
 #### Places List Screen  
-![screen1](app/src/main/res/drawable/screen1.png)
-![screen2](app/src/main/res/drawable/screen2.png)
-![screen3](app/src/main/res/drawable/screen3.png)
-![screen4](app/src/main/res/drawable/screen4.png)
-![screen5](app/src/main/res/drawable/screen5.png)
+<img src="app/src/main/res/drawable/screen1.png" width="300" height="200" />
+<img src="app/src/main/res/drawable/screen2.png" width="300" height="200" />
+<img src="app/src/main/res/drawable/screen3.png" width="300" height="200" />
+<img src="app/src/main/res/drawable/screen4.png" width="300" height="200" />
+<img src="app/src/main/res/drawable/screen5.png" width="300" height="200" />
 
 
 ## Contact Me
