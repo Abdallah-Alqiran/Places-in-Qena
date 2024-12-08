@@ -1,8 +1,11 @@
 package com.example.placesinqena.MainPackage
 
+import android.content.Intent
 import android.os.Bundle
 import android.provider.ContactsContract.Data
 import android.view.LayoutInflater
+import android.view.Menu
+import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -24,6 +27,7 @@ class ContentPage : AppCompatActivity() {
         binding = PageContentBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+
         // show welcome username
         showWelcome()
         // add elements in the array list
@@ -31,6 +35,9 @@ class ContentPage : AppCompatActivity() {
 
         // create the adapter
         creatingAdapterAndSendingData()
+
+        // while clicking the toolbar
+        clickingToolBar()
 
 
         // while clicking in more
@@ -77,5 +84,26 @@ class ContentPage : AppCompatActivity() {
         var name = intent.getStringExtra("username")
         name = "Welcome $name"
         binding.tvUsername.text = name
+    }
+
+
+    private fun clickingToolBar() {
+        setSupportActionBar(binding.toolbar)
+    }
+    
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.main_toolbar_menu, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when(item.itemId) {
+            R.id.about -> {
+                val intent = Intent(this, About::class.java)
+                startActivity(intent)
+                true
+            }
+        else ->  super.onOptionsItemSelected(item)
+        }
     }
 }
