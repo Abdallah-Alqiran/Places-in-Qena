@@ -2,14 +2,11 @@ package com.example.placesinqena.MainPackage
 
 import android.content.Intent
 import android.os.Bundle
-import android.provider.ContactsContract.Data
-import android.view.LayoutInflater
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.transition.Visibility
 import com.example.placesinqena.AdapterPackage.RecycleAdapter
 import com.example.placesinqena.R
 import com.example.placesinqena.dataPackage.DataPlaces

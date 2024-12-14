@@ -1,5 +1,7 @@
 package com.example.placesinqena.MainPackage
 
+import android.content.BroadcastReceiver
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
@@ -11,7 +13,7 @@ import com.example.placesinqena.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     // create the binding
-    lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -66,12 +68,7 @@ class MainActivity : AppCompatActivity() {
                 binding.ivStart.setImageResource(R.drawable.girl)
         }
     }
-
-
 }
-
-
-
 
 
 

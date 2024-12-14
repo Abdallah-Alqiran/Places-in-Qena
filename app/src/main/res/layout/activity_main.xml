@@ -7,6 +7,8 @@
     android:layout_height="match_parent"
     tools:context=".MainPackage.MainActivity">
 
+
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
@@ -81,13 +83,12 @@
     <ImageView
         android:id="@+id/iv_start"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="300dp"
         android:contentDescription="@string/gender_type_photo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/toolbar"
         app:srcCompat="@drawable/unknown" />
-
 
     <RadioGroup
         android:id="@+id/rb_view"
@@ -121,7 +122,6 @@
             android:text="@string/female"
             tools:ignore="VisualLintButtonSize" />
 
-
     </RadioGroup>
 
     <Button
@@ -135,6 +135,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rb_view" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
