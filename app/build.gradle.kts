@@ -1,7 +1,11 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+
 }
+
+
+
 
 android {
     namespace = "com.example.placesinqena"
@@ -40,9 +44,14 @@ android {
     buildFeatures {
         viewBinding = true
     }
+
+    buildFeatures {
+        dataBinding = true
+    }
 }
 
 dependencies {
+
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

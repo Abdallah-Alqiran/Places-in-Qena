@@ -28,6 +28,8 @@ This Android application was developed as part of the DEPI initiative. It featur
 <img src="app/src/main/res/drawable/screen4.png" width="300" height="600" />
 <img src="app/src/main/res/drawable/screen5.png" width="300" height="600" />
 
+## Download the app
+[from here >>](https://drive.google.com/drive/folders/1H3fWSC_sh6Sic_gVzc5DmiTSNDd0pXvx).
 
 ## Contact Me
 
